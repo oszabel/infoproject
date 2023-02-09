@@ -10,13 +10,15 @@
 body {
     /* background-color: snow; */
     background-color: black;
+    transition: 0.25s;
+    /* margin-bottom: 10%; */
 }
 
 .wrapper {
     width: 90%;
     margin: 0 auto;
     position: fixed;
-    top: 2%;
+    top: 4.5%;
 }
 
 .container {
@@ -118,11 +120,117 @@ header {
 .title{
     color: snow;
     position: absolute;
-    top: 2.5%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 36px;
 }
+
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    background-color: red;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-items: stretch;
+
+} */
+
+/* .grid p{
+    border: 5px solid green;
+} */
+
+.left-text{
+    color: snow;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 33%;
+    max-height: 120%;
+}
+
+.right-text{
+    color: snow;
+    position: absolute;
+    top: 100%;
+    left: 65%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 33%;
+}
+
+.right-img {
+    position: absolute;
+    top: 60%;
+    left: 63%;
+    transform: translateX(-50%);
+    scale: 80%;
+}
+
+.right-img-2 {
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    transform: translateX(-50%);
+    scale: 80%;
+}
+
+.lightmode {
+    background-color: snow;
+    color: black;
+}
+
+.lightmode > .menu {
+    /* background-color: rgba(60, 60, 60, 0.6); */
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.lightmode .menulogo {
+    background-color: black;
+}
+
+.lightmode .title {
+    color: black;
+}
+
+.lightmode .left-text {
+    color: black;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: snow;
+    background: #3c3c3c;
+}
+  
+::selection {
+    color: snow;
+    background: #3c3c3c;
+}
+
+/* .lightmode:-moz-selection { /* Code for Firefox
+    color: snow;
+    background: black;
+}
+  
+.lightmode::selection {
+    color: snow;
+    background: black;
+} */
+
+/* .lightmode > .menu li {
+    border-bottom: 1px solid snow;
+}
+
+.lightmode > .menu li:last-child {
+    border-bottom: none;
+} */
 
 @media screen and (min-width:1000px){
     .menu{
@@ -135,7 +243,38 @@ header {
         font-size: 16px;
     }
     .title{
-        top: 3.5%;
+        top: 6%;
         font-size: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .left-text{
+        font-size: 14px;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .right-text{
+        font-size: 14px;
+        top: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 66%;
+    }
+    .right-img {
+        top: 80%;
+        scale: 50%;
+        left: 20%;
+        transform: translateX(-50%);
+    }
+    .right-img-2 {
+        top: 100%;
+        scale: 50%;
+        left: 20%;
+        transform: translateX(-50%);
+    }
+    .wrapper {
+        left: 2.5%;
     }
 }
