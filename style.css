@@ -245,12 +245,12 @@ table tr td a {
     color: black;
 }
 
-.lightmode table {
+.lightmode table tr td a{
     color: black;
 }
 
-.lightmode th, td {
-    font-size: 18px;
+.lightmode th,td {
+    border-bottom: 1px solid black;
 }
 
 ::-moz-selection { /* Code for Firefox */
