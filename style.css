@@ -146,6 +146,7 @@ header {
     color: snow;
     position: absolute;
     top: 20%;
+    transform: translateY(-50%);
     left: 30%;
     transform: translateX(-50%);
     font-size: 18px;
@@ -157,7 +158,8 @@ header {
 .right-text{
     color: snow;
     position: absolute;
-    top: 100%;
+    top: 110%;
+    transform: translateY(-50%);
     left: 65%;
     transform: translateX(-50%);
     font-size: 18px;
@@ -168,6 +170,7 @@ header {
 .right-img {
     position: absolute;
     top: 22.5%;
+    transform: translateY(-50%);
     left: 66%;
     transform: translateX(-50%);
     width: 27%;
@@ -176,6 +179,7 @@ header {
 .right-img-2 {
     position: absolute;
     top: 60%;
+    transform: translateY(-50%);
     left: 66%;
     transform: translateX(-50%);
     width: 27%;
@@ -183,7 +187,8 @@ header {
 
 .left-img {
     position: absolute;
-    top: 100%;
+    top: 110%;
+    transform: translateY(-50%);
     left: 30%;
     transform: translateX(-50%);
     width: 20%;
@@ -195,9 +200,11 @@ table {
     width: 42.069%;
     position: absolute;
     top: 20%;
+    transform: translateY(-50%);
     left: 50%;
     transform: translateX(-50%);
     color: snow;
+    font-size: 18px;
 }
 
 th, td {
@@ -232,6 +239,14 @@ table tr td a {
 
 .lightmode #text {
     color: black;
+}
+
+.lightmode table {
+    color: black;
+}
+
+.lightmode th, td {
+    font-size: 18px;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -281,26 +296,30 @@ table tr td a {
     .left-text{
         font-size: 14px;
         top: 15%;
+        transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
         width: 60%;
     }
     .right-text{
         font-size: 14px;
-        top: 130%;
+        top: 175%;
+        transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
         width: 66%;
     }
     .right-img {
-        top: 90%;
+        top: 125%;
         width: 20%;
+        transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
         width: 50%;
     }
     .right-img-2 {
-        top: 110%;
+        top: 150%;
+        transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
         width: 50%;
@@ -309,9 +328,13 @@ table tr td a {
         left: 2.5%;
     }
     .left-img {
-        top: 170%;
+        top: 230%;
+        transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
         width: 35%;
+    }
+    .table {
+        font-size: 14px;
     }
 }
