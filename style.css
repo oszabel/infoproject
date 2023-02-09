@@ -153,6 +153,7 @@ header {
     text-align: justify;
     width: 33%;
     max-height: 100%;
+    overflow:hidden;
 }
 
 .right-text{
@@ -165,6 +166,9 @@ header {
     font-size: 18px;
     text-align: justify;
     width: 33%;
+    max-height: 50%;
+    max-height: 100%;
+    overflow:hidden;
 }
 
 .right-img {
@@ -187,7 +191,7 @@ header {
 
 .left-img {
     position: absolute;
-    top: 110%;
+    top: 120%;
     transform: translateY(-50%);
     left: 30%;
     transform: translateX(-50%);
@@ -294,6 +298,7 @@ table tr td a {
         transform: translateX(-50%);
     }
     .left-text{
+        height:max-content;
         font-size: 14px;
         top: 15%;
         transform: translateY(-50%);
@@ -302,6 +307,7 @@ table tr td a {
         width: 60%;
     }
     .right-text{
+        height: max-content;
         font-size: 14px;
         top: 175%;
         transform: translateY(-50%);
