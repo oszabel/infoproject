@@ -19,4 +19,11 @@ light.addEventListener('click',function(){
     // document.getElementById('light').innerHTML = 'Sötét mód';
     localStorage.setItem("light",body.classList);
     document.querySelector('.light').innerHTML = body.classList.contains('lightmode')? 'Sötét mód':'Világos mód';
+    // document.querySelector('.light').innerHTML = body.classList.contains('lightmode')? 'Dark mode':'Light mode';
+});
+
+let husvetitojas = document.querySelector('.husvetitojas');
+
+husvetitojas.addEventListener('click',function(){
+    window.alert('Szia Milán!');
 });

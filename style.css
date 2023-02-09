@@ -189,6 +189,28 @@ header {
     width: 20%;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    width: 42.069%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: snow;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid snow;
+}
+
+table tr td a {
+    text-decoration: none;
+    color: snow;
+}
+
 .lightmode {
     background-color: snow;
     color: black;
