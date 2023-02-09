@@ -151,7 +151,7 @@ header {
     font-size: 18px;
     text-align: justify;
     width: 33%;
-    max-height: 120%;
+    max-height: 100%;
 }
 
 .right-text{
@@ -167,18 +167,26 @@ header {
 
 .right-img {
     position: absolute;
-    top: 60%;
-    left: 63%;
+    top: 22.5%;
+    left: 66%;
     transform: translateX(-50%);
-    scale: 80%;
+    width: 27%;
 }
 
 .right-img-2 {
     position: absolute;
-    top: 20%;
-    left: 63%;
+    top: 60%;
+    left: 66%;
     transform: translateX(-50%);
-    scale: 80%;
+    width: 27%;
+}
+
+.left-img {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 20%;
 }
 
 .lightmode {
@@ -200,7 +208,7 @@ header {
     color: black;
 }
 
-.lightmode .left-text {
+.lightmode #text {
     color: black;
 }
 
@@ -263,18 +271,25 @@ header {
         width: 66%;
     }
     .right-img {
-        top: 80%;
-        scale: 50%;
-        left: 20%;
+        top: 90%;
+        width: 20%;
+        left: 50%;
         transform: translateX(-50%);
+        width: 50%;
     }
     .right-img-2 {
-        top: 100%;
-        scale: 50%;
-        left: 20%;
+        top: 110%;
+        left: 50%;
         transform: translateX(-50%);
+        width: 50%;
     }
     .wrapper {
         left: 2.5%;
+    }
+    .left-img {
+        top: 170%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35%;
     }
 }
