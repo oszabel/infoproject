@@ -211,7 +211,13 @@ table {
     font-size: 18px;
 }
 
-th,td {
+table tr th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid snow;
+}
+
+table tr td {
     padding: 8px;
     text-align: center;
     border-bottom: 1px solid snow;
@@ -249,7 +255,15 @@ table tr td a {
     color: black;
 }
 
-.lightmode th,td {
+.lightmode table tr td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.lightmode table tr th {
+    padding: 8px;
+    text-align: center;
     border-bottom: 1px solid black;
 }
 
