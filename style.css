@@ -19,6 +19,11 @@ body {
     margin: 0 auto;
     position: fixed;
     top: 4.5%;
+    /* transform: rotate(45deg); */
+}
+
+.animation {
+    transform: rotate(90deg);
 }
 
 .container {
@@ -32,6 +37,7 @@ body {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    transition: 0.25s;
 }
 
 .menulogo {
@@ -156,6 +162,20 @@ header {
     overflow:hidden;
 }
 
+.left-text-2{
+    color: snow;
+    position: absolute;
+    top: 160%;
+    transform: translateY(-50%);
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 33%;
+    max-height: 150%;
+    overflow:hidden;
+}
+
 .right-text{
     color: snow;
     position: absolute;
@@ -183,6 +203,15 @@ header {
 .right-img-2 {
     position: absolute;
     top: 60%;
+    transform: translateY(-50%);
+    left: 66%;
+    transform: translateX(-50%);
+    width: 27%;
+}
+
+.right-img-3 {
+    position: absolute;
+    top: 165%;
     transform: translateY(-50%);
     left: 66%;
     transform: translateX(-50%);
@@ -320,6 +349,17 @@ table tr td a {
         transform: translateX(-50%);
         width: 60%;
     }
+    .left-text-2{
+        height:max-content;
+        font-size: 14px;
+        top: 220%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        max-height: 220%;
+        overflow: hidden;
+    }
     .right-text{
         height: max-content;
         font-size: 14px;
@@ -339,6 +379,13 @@ table tr td a {
     }
     .right-img-2 {
         top: 130%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+    .right-img-3{
+        top: 450%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);

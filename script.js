@@ -10,6 +10,7 @@ let menu = document.querySelector('.menu');
 
 logo.addEventListener('click',function(){
     menu.classList.toggle('showmenu');
+    logo.classList.toggle('animation');
 });
 
 let light = document.querySelector('.light');
