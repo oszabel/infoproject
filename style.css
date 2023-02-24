@@ -93,7 +93,7 @@ header {
     /* border: 5px solid blue; */
     justify-content: center;
     position: absolute;
-    top: 15%;
+    bottom: 15%;
     flex-wrap: wrap;
 }
 
@@ -148,10 +148,52 @@ header {
     border: 5px solid green;
 } */
 
-.left-text{
+.center-text{
     color: snow;
     position: absolute;
     top: 20%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 73.25%;
+    max-height: 100%;
+    overflow:hidden;
+}
+
+.center-text-2{
+    color: snow;
+    position: absolute;
+    top: 130%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 73.25%;
+    max-height: 200%;
+    overflow:hidden;
+}
+
+.main-text{
+    color: snow;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 33%;
+    max-height: 100%;
+    overflow:hidden;
+}
+
+.left-text{
+    color: snow;
+    position: absolute;
+    top: 50%;
     transform: translateY(-50%);
     left: 30%;
     transform: translateX(-50%);
@@ -193,7 +235,7 @@ header {
 
 .right-img {
     position: absolute;
-    top: 22.5%;
+    top: 55%;
     transform: translateY(-50%);
     left: 66%;
     transform: translateX(-50%);
@@ -330,7 +372,7 @@ table tr td a {
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .menu li a{
         font-size: 16px;
     }
@@ -340,10 +382,29 @@ table tr td a {
         left: 50%;
         transform: translateX(-50%);
     }
-    .left-text{
+    .center-text{
         height:max-content;
         font-size: 14px;
         top: 15%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .center-text-2{
+        height:max-content;
+        max-height: 500%;
+        font-size: 14px;
+        top: 170%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .left-text{
+        height:max-content;
+        font-size: 14px;
+        top: 68%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
@@ -370,12 +431,11 @@ table tr td a {
         width: 66%;
     }
     .right-img {
-        top: 110%;
-        width: 20%;
+        top: 145%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
-        width: 50%;
+        width: 60%;
     }
     .right-img-2 {
         top: 130%;
