@@ -465,3 +465,97 @@ table tr td a {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width:400px){
+    .menu li a{
+        font-size: 16px;
+    }
+    .title{
+        top: 6%;
+        font-size: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .center-text{
+        height:max-content;
+        font-size: 14px;
+        top: 15%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .center-text-2{
+        height:max-content;
+        max-height: 500%;
+        font-size: 14px;
+        top: 227%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .left-text{
+        height:max-content;
+        font-size: 14px;
+        top: 95%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .left-text-2{
+        height:max-content;
+        font-size: 14px;
+        top: 220%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        max-height: 220%;
+        overflow: hidden;
+    }
+    .right-text{
+        height: max-content;
+        font-size: 14px;
+        top: 150%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 66%;
+    }
+    .right-img {
+        top: 198%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .right-img-2 {
+        top: 130%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+    .right-img-3{
+        top: 450%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+    .wrapper {
+        left: 2.5%;
+    }
+    .left-img {
+        top: 200%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35%;
+    }
+    .table {
+        font-size: 14px;
+    }
+}
