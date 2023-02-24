@@ -158,9 +158,20 @@ header {
     font-size: 18px;
     text-align: justify;
     width: 73.25%;
-    max-height: 100%;
+    max-height: 1000%;
     overflow:hidden;
 }
+
+/* img {
+    width: 40%;
+    position: relative;
+    display: inline;
+    align-self: self-start;
+    vertical-align: no idea;
+    float: right;
+    z-index: 25%;
+    transform: translateZ(-50%);
+}*/
 
 .center-text-2{
     color: snow;
@@ -190,13 +201,23 @@ header {
     overflow:hidden;
 }
 
-.left-text{
+/* .left-text{
     color: snow;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 30%;
     transform: translateX(-50%);
+    font-size: 18px;
+    text-align: justify;
+    width: 33%;
+    max-height: 100%;
+    overflow:hidden;
+} */
+
+.left-text{
+    color: snow;
+    position: relative;
     font-size: 18px;
     text-align: justify;
     width: 33%;
