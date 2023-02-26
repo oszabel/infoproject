@@ -161,7 +161,7 @@ img {
     transform: translateX(-50%);
     font-size: 18px;
     text-align: justify;
-    width: 73.25%;
+    width: 66%;
     max-height: 1000%;
     overflow:hidden;
 }
@@ -426,6 +426,15 @@ table tr td a {
         transform: translateX(-50%);
         width: 60%;
     }
+    .main-text{
+        height:max-content;
+        font-size: 14px;
+        top: 15%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
     .left-text{
         height:max-content;
         font-size: 14px;
@@ -491,7 +500,7 @@ table tr td a {
     }
     .grid {
         grid-template-columns: 50%;
-        top: 80%;
+        top: 90%;
     }
 }
 
@@ -506,6 +515,15 @@ table tr td a {
         transform: translateX(-50%);
     }
     .center-text{
+        height:max-content;
+        font-size: 14px;
+        top: 15%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+    .main-text{
         height:max-content;
         font-size: 14px;
         top: 15%;
@@ -589,6 +607,6 @@ table tr td a {
     }
     .grid {
         grid-template-columns: 50%;
-        top: 100%;
+        top: 110%;
     }
 }
