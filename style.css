@@ -138,7 +138,7 @@ header {
     grid-template-columns: 25% 25%;
     grid-gap: 1em;
     position: absolute;
-    top: 95%;
+    top: 135%;
     transform: translateY(-50%);
     justify-content: center;
     /* align-items: center; */
@@ -260,11 +260,11 @@ img {
 
 .right-img {
     position: absolute;
-    top: 55%;
+    top: 20%;
     transform: translateY(-50%);
     left: 66%;
     transform: translateX(-50%);
-    width: 27%;
+    width: 22.5%;
 }
 
 .right-img-2 {
@@ -361,6 +361,14 @@ table tr td a {
     padding: 8px;
     text-align: center;
     border-bottom: 1px solid black;
+}
+
+#text {
+    margin-bottom: 120px;
+}
+
+.margin{
+    margin-bottom: 100px;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -465,7 +473,7 @@ table tr td a {
         width: 66%;
     }
     .right-img {
-        top: 145%;
+        top: 90%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
@@ -500,7 +508,7 @@ table tr td a {
     }
     .grid {
         grid-template-columns: 50%;
-        top: 90%;
+        top: 105%;
     }
 }
 
@@ -572,7 +580,7 @@ table tr td a {
         width: 66%;
     }
     .right-img {
-        top: 198%;
+        top: 130%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
@@ -607,6 +615,6 @@ table tr td a {
     }
     .grid {
         grid-template-columns: 50%;
-        top: 110%;
+        top: 135%;
     }
 }
