@@ -480,11 +480,11 @@ table tr td a {
         width: 60%;
     }
     .right-img-2 {
-        top: 130%;
+        top: 110%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
-        width: 50%;
+        width: 60%;
     }
     .right-img-3{
         top: 450%;
@@ -508,7 +508,7 @@ table tr td a {
     }
     .grid {
         grid-template-columns: 50%;
-        top: 105%;
+        top: 120%;
     }
 }
 
@@ -579,6 +579,7 @@ table tr td a {
         transform: translateX(-50%);
         width: 66%;
     }
+    
     .right-img {
         top: 130%;
         transform: translateY(-50%);
@@ -587,11 +588,11 @@ table tr td a {
         width: 60%;
     }
     .right-img-2 {
-        top: 130%;
+        top: 135%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);
-        width: 50%;
+        width: 60%;
     }
     .right-img-3{
         top: 450%;
@@ -615,6 +616,6 @@ table tr td a {
     }
     .grid {
         grid-template-columns: 50%;
-        top: 135%;
+        top: 150%;
     }
 }
